@@ -101,8 +101,11 @@ body{
 }
 
 #devendra-home-page-img{
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
 }
 
 .right-side-container{
