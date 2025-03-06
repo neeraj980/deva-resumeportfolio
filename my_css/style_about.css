@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 0px;
+}
+  
+/* Nav links styling */
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+.nav-links a {
+    color: #ECDFCC;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Quicksand", serif;
+    font-style: normal;
+}
+
+.nav-links a:hover {
+    color: #697565; /* Change color on hover */
+} 
+
+#name-header{
+    color: #FFF4B7;
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 12px 0px;
+}
+
+.container{
+    background-color: #181C14;
+    padding: 10px 20px;
+}
+
+.subject-headers{
+    font-family: 'Quicksand', serif;
+    font-size: 1.3rem;
+    color: #e8e3c9;
+    font-weight: 600;
+}
+
+.centre-block{
+    display: block;
+    width: 100%;
+}
+
+.education-item{
+    padding: 2rem 3rem;
+    height: 10rem;
+    background-color: #e8e3c9;
+    margin: 2.2rem auto;
+    width: 28rem;
+}
+
+.year-headers{
+    color: #323c35;
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', serif;
+}
+
+.degree-headers{
+    color: #5e5e5e;
+    font-family: 'Quicksand', serif;
+    font-size: 1.2rem;
+}
+
+.degree-location{
+    color: #5e5e5e;
+    font-family: 'Quicksand', serif;
+    font-size: 1rem;
+}
+
+.year-headers, .degree-headers, .degree-location{
+    margin: 1.3rem 0rem;
+}
+
+.centre-block-2{
+    background-color: #e8e3c9;
+    width: 28rem;
+    /* height: 35rem; */
+    margin: 2.2rem auto;
+    padding: 3rem 3rem;
+}
+
+hr{
+    border-style: dotted;
+    color: #e8e3c9;
+    border-bottom: 60cm;
+    margin-bottom: 2rem;
+}
+
+.skills-headers{
+    font-family: 'Quicksand', serif;
+    color: #323c35;
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.skill-list{
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 0.7rem;
+}
+
+.skill-list-item, .skill-list-2-item{
+    font-family: 'Quicksand', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5e5e5e;
+    margin-bottom: 0.1rem;
+}
+
+.skill-list-2{
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 0.7rem;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 0px 25px;
+}
+
+.section-separator{
+    margin: 2rem 0rem;
+    color: #181C14;
+}
+
+.skill-list-item::marker, .skill-list-2-item::marker{
+    font-size: 1.2rem;
+}

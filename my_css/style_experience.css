@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    min-height: 100vh;
+    overflow-y: auto;
+    background-color: #181C14;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    /* background-color: #333; */
+    padding: 10px 0px;
+}
+  
+/* Nav links styling */
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+.nav-links a {
+    color: #ECDFCC;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Quicksand", serif;
+    font-style: normal;
+}
+
+.nav-links a:hover {
+    color: #697565; /* Change color on hover */
+} 
+
+#name-header{
+    color: #FFF4B7;
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 12px 0px;
+}
+
+.container{
+    background-color: #181C14;
+    padding: 10px 20px;
+}
+
+.right-side-container{
+    margin-top: 0;
+    position: fixed;
+    margin-left: 50%;
+}
+
+.right-side-container img{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh; /* Full viewport height */
+    width: 50%; /* Adjust width automatically based on height */
+    object-fit: cover; /* Crop the image to fit the container */
+    z-index: 1000; /* Ensure the image stays above other content */
+}
+
+.content-heading{
+    color: #323c35;
+    font-family: 'Quicksand', serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0.2rem 0rem;
+}
+
+.summary p{
+    color: #323c35;
+    font-family: 'Quicksand', serif;
+    font-weight: 600;
+    margin: 0rem 0rem;
+}
+
+.summary{
+    background-color: #e8e3c9;
+    padding: 0.8rem 0.7rem;
+    margin-top: 1.7rem;
+}
+
+.separator{
+    margin-top: 1rem;
+    border-style: dashed;
+    color: #e8e3c9;
+}
+
+.left-side-container{
+    width: 48%;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.content-block{
+    margin-top: 2rem;
+    background-color: #e8e3c9;
+    padding: 0.8rem 0.7rem;
+    display: flex;
+    /* height: 13rem; */
+}
+
+.left-content{
+    margin: auto 0px;
+    width: 12rem;
+}
+
+.right-content ul{
+    padding-left: 10px
+}
+
+.right-content{
+    margin: auto 0rem;
+    width: 31rem;
+}
+
+.right-content li, .designation-heading, .year-heading, .job-location{
+    font-family: 'Quicksand', serif;
+}
+.year-heading{
+    font-size: 1.5rem;
+    margin: 0rem 0rem;
+    color: #323c35;
+}
+
+.designation-heading{
+    margin: 0.2rem 0rem;
+    color: #323c35;
+    font-weight: 800;
+}
+
+.right-content li{
+    font-weight: 600;
+    color: #323c35;
+}
+
+.right-content li::marker{
+    font-size: 1.2rem;
+    color: #323c35
+}
+
+.right-content ul{
+    list-style-type: square;
+}
+
+.job-location{
+    margin: 0rem 0rem;
+    color: #323c35;
+    font-size: 0.8rem;
+}
